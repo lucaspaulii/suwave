@@ -1,0 +1,215 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+font-family:Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+}
+nav {
+    background-image: linear-gradient(rgb(245, 121, 76), coral);
+    height: 35px;
+    display: inline-flex;
+    flex-flow: row;
+    justify-content: right;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}      
+    nav a{
+        text-decoration: none;
+        color:aliceblue;
+        font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+        font-size: 15px;
+        padding-right: 25px;
+        position: relative;
+        top: 10px;
+        font-weight: bold;
+        }
+.inicio {
+    position: fixed;
+    top: 40px;
+    background-image: linear-gradient(to right, rgb(143, 44, 143), purple);
+    width: 100%;
+    text-align: center;
+    display: inline-flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    z-index:1;
+}
+    .inicio a{
+        text-decoration: none;
+        color:white;
+        font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+        font-size: 15px;
+        padding: 2px 0;
+    }
+#imghead {
+    position:relative;
+    top: 60px;
+    
+}
+#imagem1 {
+    text-align: center;
+}
+
+#integrantes {
+    display: inline-flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+article {
+    position: relative;
+    top: 70px;
+}
+.individual {
+    text-align: center;
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+    position: relative;
+    top: 10px;
+    background-image: linear-gradient(to right, rgb(117, 202, 198), lightseagreen);
+}
+.individual h2 {
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px 10px;
+}
+.individual h3 {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+#asuwave {
+    background-image: url("suwave.jpg");
+    background-size: cover;
+    height: 800px;
+}
+#asuwave p{
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+    text-align: justify;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 30px;
+    padding: 10px 10px;
+    position: relative;
+    top: 550px;
+    background-image: linear-gradient(to right, rgb(105, 105, 105, 0.6)    , rgba(185, 179, 185, 0.6));
+}
+span {
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+    font-weight: bolder;
+    color: white;
+    background-image: linear-gradient(to right, rgb(143, 44, 143), purple);
+    font-size: 22px;
+}
+.topic{
+    position: relative;
+    top: 30px;
+}
+.topic h4 {
+    background-image: linear-gradient(to right, rgb(117, 202, 198, 0.6), rgb(32, 178, 170, 0.6)); ;
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px 0;
+}
+#pictures img {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+body {
+    background-image: url("patternsuwave.png");
+    background-size: 300px;
+}
+#vid {
+    text-align: center;
+    position: relative;
+    padding: 20px 20px;
+}
+#calendar {
+    text-align: center;
+    position: relative;
+    padding: 20px 20px;
+}
+#music {
+    text-align: center;
+    padding: 20px 2px;
+    margin: 0 auto;
+}
+#contratantes p{
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+    text-align: justify;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 30px;
+    padding: 10px 10px;
+    position: relative;
+    top: 10px;
+    background-image: linear-gradient(to right, rgb(105, 105, 105, 0.6)    , rgba(185, 179, 185, 0.6));
+}
+footer {
+    background-image: linear-gradient(rgb(245, 121, 76), coral);
+    height: 35px;
+    width: 100%;
+    position: relative;
+    top: 120px;
+    z-index: 1;
+    text-align: center;
+}
+footer h4 {
+    text-decoration: none;
+    color:aliceblue;
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+    font-size: 15px;
+    padding-right: 25px;
+    position: relative;
+    top: 10px;
+    display: inline;
+    font-weight: bold;
+}
+
